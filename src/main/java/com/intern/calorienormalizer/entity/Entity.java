@@ -28,8 +28,8 @@ public class Entity {
     @Setter(AccessLevel.PRIVATE)
     private Integer purpose;
 
-    public void setPurpose(PurposeStatus purpose) {
-        this.purpose = purpose.getValue();
+    public void setPurpose(PurposeStatus purposeStatus) {
+        purpose = purposeStatus.getValue();
     }
 
     public PurposeStatus getPurpose() {
