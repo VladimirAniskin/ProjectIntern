@@ -28,6 +28,7 @@ public class User {
   private Integer weight;
 
   private Integer height;
+  private String floor;
 
   @Getter(AccessLevel.PRIVATE)
   @Setter(AccessLevel.PRIVATE)
